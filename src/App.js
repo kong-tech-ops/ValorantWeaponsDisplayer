@@ -11,7 +11,6 @@ function App() {
     fetchData();
   }, [])
 
-
   const fetchData = async () => {
     let response = await (
       await fetch(url)
