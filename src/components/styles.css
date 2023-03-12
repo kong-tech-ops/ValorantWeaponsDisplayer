@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.loader{
+    text-align: center;
+}
+
+.weapondisplayframe {
+    border: 5px solid black;
+    background-color: rgb(27, 133, 6);
+    height: 350px;
+    width: 300px;
+    border-radius: 3em;
+}
+
+.weapontitle {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 4em;
+    padding: 0 10px;
+}
+
+.weaponimage {
+    border: 4px solid black;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 2em;
+}
