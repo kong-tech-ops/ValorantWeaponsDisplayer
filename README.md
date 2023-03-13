@@ -6,3 +6,4 @@ I made this just to practice data fetching from an API and to display the fetche
 This app does not have the best structure codewise. It has few flaws. 
 - Data fetching happens in App.js, not in a seperate file.
 - Some code could be refactored.
+- UI is not very appealing.
